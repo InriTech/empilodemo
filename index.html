@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Empilo Medical Centre | Health Services Provider</title>
+  <meta name="description" content="Empilo Medical Centre - Bringing sophisticated medical services, expert healthcare providers, and the latest technologies locally.">
+  <meta name="keywords" content="medical centre, healthcare, doctors, hospital, medical services, Empilo, Centurion, Olievenhoutbosch">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- WhatsApp Floating Button CSS -->
+  <style>
+    .whatsapp-float {
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: #25d366;
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+    
+    .whatsapp-float:hover {
+      background-color: #128C7E;
+      color: white;
+      transform: scale(1.1);
+      text-decoration: none;
+    }
+    
+    .whatsapp-float i {
+      margin-top: 5px;
+    }
+    
+    @media (max-width: 768px) {
+      .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body class="index-page">
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/27126523002?text=Hello%20Empilo%20Medical%20Centre,%20I%20would%20like%20to%20make%20an%20appointment" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="d-none d-md-flex align-items-center">
+          <i class="bi bi-clock me-1"></i> Monday - Friday, 7AM to 7PM | Saturday, 8AM to 1PM
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="bi bi-phone me-1"></i> Call us: +27 12 652 3002
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-center">
+
+      <div class="container position-relative d-flex align-items-center justify-content-end">
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- Placeholder for logo - add your logo image here -->
+<img src="assets/img/logo.png" alt="Empilo Medical Centre Logo">        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#specialties">Our Specialties</a></li>
+            <li><a href="#doctors">Our Team</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="cta-btn" href="#appointment">Book Appointment</a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/hero-carousel-1.jpg" alt="Modern medical facility">
+          <div class="container">
+            <h2>Welcome To Empilo Medical Centre</h2>
+            <p>General Practitioner • Physiotherapist • Psychologist • Dentist</p>
+            <p class="hero-subtitle">Improving Quality of Life</p>
+            <a href="#about" class="btn-get-started">READ MORE</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-2.jpg" alt="Caring medical professionals">
+          <div class="container">
+            <h2>New SHUTTLE SERVICE</h2>
+            <p>FOR PATIENTS IN AND AROUND OLIEVENHOUTBOSCH</p>
+            <p>Delivery of quality medical treatment and the promotion of disease prevention through our centre.</p>
+            <a href="#services" class="btn-get-started">Our Services</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/hero-carousel-3.jpg" alt="Advanced medical technology">
+          <div class="container">
+            <h2>Expert Healthcare Providers</h2>
+            <p>We provide sophisticated medical services, expert healthcare providers, and the latest technologies locally.</p>
+            <a href="#doctors" class="btn-get-started">Meet Our Team</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-user-md icon"></i></div>
+              <h4><a href="#services" class="stretched-link">General Practitioner</a></h4>
+              <p>Comprehensive primary healthcare for the whole family with personalized treatment plans</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-bone icon"></i></div>
+              <h4><a href="#services" class="stretched-link">Physiotherapist</a></h4>
+              <p>Rehabilitation and pain management for musculoskeletal injuries and conditions</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-brain icon"></i></div>
+              <h4><a href="#services" class="stretched-link">Psychologist</a></h4>
+              <p>Mental health support, counseling, and therapy for emotional wellbeing</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="fas fa-tooth icon"></i></div>
+              <h4><a href="#services" class="stretched-link">Dentist</a></h4>
+              <p>Complete dental care including check-ups, cleaning, and dental treatments</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section accent-background">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call us: 012 652 3002</h3>
+              <p>Empilo Medical Centre continually strives to bring sophisticated medical services, expert healthcare providers, and the latest technologies locally – to keep your care right here during times of illness, injury, and even wellness.</p>
+              <a class="cta-btn" href="#appointment">Book Appointment Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About Empilo Medical Centre</h2>
+        <p>Providing World Class Healthcare Services</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="Empilo Medical Centre building">
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Your Trusted Healthcare Partner in Centurion</h3>
+            <p class="fst-italic">
+              No matter the stage or phase, Empilo takes great pride in providing families with healthcare evolving for life.
+            </p>
+            <p>
+              Modern medicine has many triumphs, but its treatments for chronic and degenerative disease are not among them. 
+              Reliance on conventional drugs, surgery and radiation does little to address the causes of the condition, 
+              with the result that treatment too often only slows the progression of the disease – sometimes with very 
+              little benefit – and too often at a terrible cost in quality of life for the patient.
+            </p>
+            <p>
+              At Empilo Medical Centre, we focus on comprehensive care that addresses the root causes of health issues 
+              while providing immediate relief and long-term wellness strategies.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Family-friendly medical environment</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Treatment for both adults and children</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Easy accessibility and convenient location</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Emphasis on preventive healthcare</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Shuttle service for Olievenhoutbosch area</span></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Specialties Section -->
+    <section id="specialties" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Specialized Services</h2>
+        <p>Comprehensive healthcare services for all your needs</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-female"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Women's Health</h3>
+              </a>
+              <p>Women, being the primary carers of their families in the majority of situations, both for children and elderly parents, need an extra dimension to their medical care. This requires recognition of their constant giving and caring.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-male"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Men's Health</h3>
+              </a>
+              <p>We know how hard it is to make time to come to see the doctor. We are happy to talk about any aspect of Men's Health that may be of interest to you – not just men-only problems like prostates but also weight loss, smoking cessation, mood problems like depression or stress, heart health.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-baby"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Child Health</h3>
+              </a>
+              <p>At Empilo Medical Centre, we provide a high standard of care for your children, from the infant to the adolescent years. Our pediatric care focuses on growth, development, and preventive healthcare for young patients.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-plane"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Travel Health</h3>
+              </a>
+              <p>More and more people are travelling internationally than ever before, be it going on foreign holidays or travelling for business. Many destinations have health risks for travellers. Travellers will wish to remain well and illness free on their overseas trips.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Preventive Health</h3>
+              </a>
+              <p>Looking at your level of health even when you are not ill is a valuable exercise. Perhaps you would like more get-up-and-go? Or try to turn the clock back a bit? Our preventive health services help you maintain optimal health.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="fas fa-prescription-bottle-alt"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Prescriptions</h3>
+              </a>
+              <p>Prescriptions are handled with great care in this practice. We want to ensure you get the right medicines for you. Please submit requests for prescriptions in writing, to ensure errors are kept to a minimum.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Specialties Section -->
+
+    <!-- Appointment Section -->
+    <section id="appointment" class="appointment section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>BOOK AN APPOINTMENT</h2>
+        <p>Schedule your visit with our healthcare professionals</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+          <div class="row">
+            <div class="col-md-4 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Full Name" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email Address" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3 mt-md-0">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone Number" required="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 form-group mt-3">
+              <input type="date" name="date" class="form-control datepicker" id="date" placeholder="Preferred Date" required="">
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="service" id="service" class="form-select" required="">
+                <option value="">Select Service</option>
+                <option value="General Practitioner">General Practitioner</option>
+                <option value="Physiotherapist">Physiotherapist</option>
+                <option value="Psychologist">Psychologist</option>
+                <option value="Dentist">Dentist</option>
+                <option value="Women's Health">Women's Health</option>
+                <option value="Men's Health">Men's Health</option>
+                <option value="Child Health">Child Health</option>
+              </select>
+            </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="time" id="time" class="form-select" required="">
+                <option value="">Preferred Time</option>
+                <option value="Morning (8AM-12PM)">Morning (8AM-12PM)</option>
+                <option value="Afternoon (12PM-4PM)">Afternoon (12PM-4PM)</option>
+                <option value="Evening (4PM-7PM)">Evening (4PM-7PM)</option>
+                <option value="Saturday (8AM-1PM)">Saturday (8AM-1PM)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Brief description of your symptoms or reason for visit"></textarea>
+          </div>
+          <div class="mt-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your appointment request has been sent successfully. We will contact you shortly to confirm!</div>
+            <div class="text-center"><button type="submit">Book Appointment Now</button></div>
+          </div>
+        </form>
+
+      </div>
+
+    </section><!-- /Appointment Section -->
+
+   
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        <p>Get in touch with Empilo Medical Centre</p>
+      </div><!-- End Section Title -->
+
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.1879962456082!2d28.100161500000002!3d-25.896189699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e957ac5649f5809%3A0x74cd469fcc80c226!2sEmpilo%20Medical%20Centre.!5e0!3m2!1sen!2sza!4v1767287790691!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div><!-- End Google Maps -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 ">
+            <div class="row gy-4">
+
+              <div class="col-lg-12">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Our Address</h3>
+                  <p>No. 9189, Cnr Monate & Forest Tea Street<br>
+                  Olievenhoutbosch Extension 36<br>
+                  Centurion, 0157</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+27 12 652 3002<br>Emergency Services Available</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@emplomed.co.za<br>appointments@emplomed.co.za</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-12">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Operating Hours</h3>
+                  <p>Monday - Friday: 7:00 AM - 7:00 PM<br>Saturday: 8:00 AM - 1:00 PM<br>Emergency: 24/7</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-12">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="600">
+                  <i class="bi bi-bus-front"></i>
+                  <h3>Shuttle Service</h3>
+                  <p>Available for patients in and around Olievenhoutbosch area. Contact us for schedule and pickup points.</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="700">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="tel" class="form-control" name="phone" placeholder="Your Phone Number" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Your Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">EMPILO MEDICAL CENTRE</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>No. 9189, Cnr Monate & Forest Tea Street<br>
+            Olievenhoutbosch Extension 36<br>
+            Centurion, 0157</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+27 12 652 3002</span></p>
+            <p><strong>Email:</strong> <span>info@emplomed.co.za</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter-x"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/27126523002" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        
+        
+
+        <div class="col-lg-3 col-md-12 footer-newsletter">
+          <h4>Our Mission</h4>
+          <p>Our main aim is to offer good health care to our patients and to be easily accessible. Our Doctors and therapists as well as the staff place an important emphasis on treating both adults and kids alike, and we encourage a family-friendly medical environment.</p>
+          <p class="mt-3"><strong>Shuttle Service:</strong> Available for Olievenhoutbosch area patients.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Empilo Medical Centre</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+         by <a href="https://www.inritech.co.za/" target="_blank">Inritech</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
